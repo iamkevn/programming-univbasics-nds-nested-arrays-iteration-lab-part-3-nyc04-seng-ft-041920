@@ -12,7 +12,7 @@ def join_nested_strings(src)
       end
         inner_count += 1
     end
-    inner_count += 1
+    count += 1
   end
-  count += 1
+  return new_array.join(" ")
 end
